@@ -265,6 +265,7 @@ class SurahDisplayScreen extends StatelessWidget {
                               style: QuranLibrary().naskhStyle.copyWith(
                                     color: isDark ? Colors.white : Colors.black,
                                     fontSize: 22,
+                                    letterSpacing: 0,
                                   ),
                             ),
                             iconTheme: IconThemeData(
@@ -336,6 +337,7 @@ class SurahDisplayScreen extends StatelessWidget {
           style: TextStyle(
             color: isDark ? Colors.white : Colors.black,
             fontSize: 16,
+            letterSpacing: 0,
           ),
         ),
       );

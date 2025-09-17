@@ -34,6 +34,7 @@ class GetSingleAyah extends StatelessWidget {
         style: TextStyle(
           fontSize: fontSize ?? 22,
           color: textColor ?? (isDark! ? Colors.white : Colors.black),
+          letterSpacing: 0,
         ),
       );
     }
@@ -50,6 +51,7 @@ class GetSingleAyah extends StatelessWidget {
         style: TextStyle(
           fontSize: fontSize ?? 22,
           color: textColor ?? (isDark! ? Colors.white : Colors.black),
+          letterSpacing: 0,
         ),
       );
     }
@@ -73,7 +75,7 @@ class GetSingleAyah extends StatelessWidget {
           package: currentFontsSelected ? null : 'quran_library',
           fontSize: fontSize ?? 22,
           height: 1.7,
-          letterSpacing: currentFontsSelected ? 3 : null,
+          letterSpacing: 0,
           color: textColor ?? (isDark! ? Colors.white : Colors.black),
           shadows: [
             Shadow(

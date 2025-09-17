@@ -67,7 +67,7 @@ class RichTextBuild extends StatelessWidget {
             fontFamily: isFontsLocal ? fontsName : 'p${(pageIndex + 2001)}',
             fontSize: 100,
             height: 1.7,
-            letterSpacing: 2,
+            letterSpacing: 0,
             shadows: [
               Shadow(
                 blurRadius: 0.5,

@@ -108,6 +108,7 @@ class BuildBottomSection extends StatelessWidget {
       fontFamily: 'naskh',
       color: const Color(0xff77554B),
       package: 'quran_library',
+      letterSpacing: 0,
     );
   }
 
@@ -119,6 +120,7 @@ class BuildBottomSection extends StatelessWidget {
       fontFamily: 'naskh',
       color: const Color(0xff77554B),
       package: 'quran_library',
+      letterSpacing: 0,
     );
   }
 }

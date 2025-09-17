@@ -149,6 +149,7 @@ class DefaultFontsBuild extends StatelessWidget {
                         fontFamily: "hafs",
                         height: 1.3,
                         package: "quran_library",
+                        letterSpacing: 0,
                       ),
                     ),
                   ),

@@ -239,6 +239,7 @@ class QuranLibrary {
                 fontFamily: "surahName",
                 fontSize: 38,
                 package: "quran_library",
+                letterSpacing: 0,
               ),
             ));
     _cache['allSurahsArtPath'] = paths;
@@ -259,6 +260,7 @@ class QuranLibrary {
         fontFamily: "surahName",
         fontSize: 38,
         package: "quran_library",
+        letterSpacing: 0,
       ),
     );
     _cache['allSurahsArtPath'] = paths;
@@ -980,6 +982,7 @@ class QuranLibrary {
     fontSize: 23.55,
     fontFamily: "naskh",
     package: "quran_library",
+    letterSpacing: 0,
   );
 
   /// مسح ذاكرة التخزين المؤقت لمفتاح معين أو ذاكرة التخزين المؤقت بالكامل

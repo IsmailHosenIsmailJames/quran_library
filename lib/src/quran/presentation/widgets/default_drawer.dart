@@ -117,7 +117,10 @@ class _DefaultDrawer extends StatelessWidget {
             title: Text(
               jozzList[jozzIndex],
               style: const TextStyle(
-                  color: Colors.black, fontWeight: FontWeight.bold),
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
+                letterSpacing: 0,
+              ),
             ),
             children: List.generate(2, (index) {
               final hizbIndex = (index == 0 && jozzIndex == 0)
@@ -135,7 +138,10 @@ class _DefaultDrawer extends StatelessWidget {
                       : Colors.transparent,
                   child: Text(
                     hizbList[hizbIndex],
-                    style: const TextStyle(fontWeight: FontWeight.bold),
+                    style: const TextStyle(
+                      fontWeight: FontWeight.bold,
+                      letterSpacing: 0,
+                    ),
                   ),
                 ),
               );

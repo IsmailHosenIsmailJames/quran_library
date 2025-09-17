@@ -68,6 +68,7 @@ class TextScaleRichTextBuild extends StatelessWidget {
             //   ),
             // ],
             package: 'quran_library',
+            letterSpacing: 0,
           ),
           children: List.generate(ayahs.length, (ayahIndex) {
             final allBookmarks =

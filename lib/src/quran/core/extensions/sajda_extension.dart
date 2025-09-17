@@ -43,6 +43,7 @@ extension SajdaExtension on Widget {
                           ? 13.0
                           : 18.0,
                       package: 'quran_library',
+                      letterSpacing: 0,
                     ),
                   )
                 ],

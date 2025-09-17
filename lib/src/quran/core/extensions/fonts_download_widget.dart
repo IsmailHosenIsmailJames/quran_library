@@ -43,6 +43,7 @@ extension FontsDownloadWidgetExtension on QuranCtrl {
                   color: downloadFontsDialogStyle?.titleColor ??
                       (isDark ? Colors.white : Colors.black),
                   package: 'quran_library',
+                  letterSpacing: 0,
                 ),
             textAlign: TextAlign.center,
           ),
@@ -57,11 +58,13 @@ extension FontsDownloadWidgetExtension on QuranCtrl {
                 'لجعل مظهر المصحف مشابه لمصحف المدينة يمكنك تحميل خطوط المصحف',
             style: downloadFontsDialogStyle?.notesStyle ??
                 TextStyle(
-                    fontSize: 16.0,
-                    fontFamily: 'naskh',
-                    color: downloadFontsDialogStyle?.notesColor ??
-                        (isDark ? Colors.white : Colors.black),
-                    package: 'quran_library'),
+                  fontSize: 16.0,
+                  fontFamily: 'naskh',
+                  color: downloadFontsDialogStyle?.notesColor ??
+                      (isDark ? Colors.white : Colors.black),
+                  package: 'quran_library',
+                  letterSpacing: 0,
+                ),
           ),
           const SizedBox(
             height: 100,
@@ -171,6 +174,7 @@ extension FontsDownloadWidgetExtension on QuranCtrl {
                             color: downloadFontsDialogStyle?.titleColor ??
                                 (isDark ? Colors.white : Colors.black),
                             package: 'quran_library',
+                            letterSpacing: 0,
                           ),
                     ),
                     onChanged: isFontsLocal! ||
@@ -201,6 +205,7 @@ extension FontsDownloadWidgetExtension on QuranCtrl {
                           fontSize: 16,
                           fontFamily: 'naskh',
                           package: 'quran_library',
+                          letterSpacing: 0,
                         ),
                   )
                 : const SizedBox.shrink(),

@@ -183,6 +183,7 @@ extension ShowTafsirExtension on void {
                                         color: isDarkMode
                                             ? Colors.white
                                             : Colors.black,
+                                        letterSpacing: 0,
                                       ),
                                 ),
                                 fontSizeWidget: Icon(

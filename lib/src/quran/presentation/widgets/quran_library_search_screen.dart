@@ -39,7 +39,10 @@ class QuranLibrarySearchScreen extends StatelessWidget {
               )),
           title: Text(
             'بحث',
-            style: TextStyle(color: isDark ? Colors.white : Colors.black),
+            style: TextStyle(
+              color: isDark ? Colors.white : Colors.black,
+              letterSpacing: 0,
+            ),
           ),
           centerTitle: true,
           backgroundColor:
@@ -124,12 +127,14 @@ class QuranLibrarySearchScreen extends StatelessWidget {
                         ayah.text.replaceAll('\n', ' '),
                         style: QuranLibrary().hafsStyle.copyWith(
                               color: isDark ? Colors.white : Colors.black,
+                              letterSpacing: 0,
                             ),
                       ),
                       subtitle: Text(
                         ayah.arabicName!,
                         style: TextStyle(
                           color: isDark ? Colors.white : Colors.black,
+                          letterSpacing: 0,
                         ),
                       ),
                       contentPadding:

@@ -73,7 +73,11 @@ class UiHelper {
                     child: Text(
                       text,
                       style: TextStyle(
-                          color: hintColor, fontFamily: 'naskh', fontSize: 20),
+                        color: hintColor,
+                        fontFamily: 'naskh',
+                        fontSize: 20,
+                        letterSpacing: 0,
+                      ),
                       textAlign: TextAlign.center,
                     ),
                   ),
@@ -122,10 +126,12 @@ class UiHelper {
                   child: Text(
                     text,
                     style: const TextStyle(
-                        color: Colors.white,
-                        fontFamily: 'kufi',
-                        fontStyle: FontStyle.italic,
-                        fontSize: 16),
+                      color: Colors.white,
+                      fontFamily: 'kufi',
+                      fontStyle: FontStyle.italic,
+                      fontSize: 16,
+                      letterSpacing: 0,
+                    ),
                     textAlign: TextAlign.center,
                   ),
                 ),
